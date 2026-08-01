@@ -1,8 +1,25 @@
 aid: pluto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pluto.png
 name: Pluto
-description: 'Pluto is a company surfaced as a portfolio company of sierra-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Pluto (Pluto Health, trypluto.com now pluto.health) is an AI-powered clinical
+  intelligence and care-delivery platform that unifies fragmented health data from roughly
+  90% of US health systems. It aggregates medical records, insurance data, and social
+  determinants of health, then applies AI-driven clinical intelligence to surface care
+  gaps, coordinate preventive care, screenings, vaccines and at-home lab testing, and match
+  patients to clinical trials. Pluto offers turnkey, white-label, or API-based deployment
+  of its clinical operations. It is backed by Sierra Ventures. As of this enrichment pass the
+  company publishes no public developer portal, API reference, SDKs, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/pluto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Healthcare
+- Clinical Intelligence
+- Health Data
+- Care Coordination
+- Digital Health
+- Interoperability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/pluto-trust-center.yml
+- type: Compliance
+  url: https://trust.pluto.health/
+- type: DomainSecurity
+  url: security/pluto-domain-security.yml
 - type: Website
-  url: https://trypluto.com/
+  url: https://pluto.health/
+- type: Blog
+  url: https://pluto.health/news
+- type: Support
+  url: mailto:hello@pluto.health
+- type: PrivacyPolicy
+  url: https://pluto.health/privacy
+- type: TermsOfService
+  url: https://pluto.health/terms-of-use
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
