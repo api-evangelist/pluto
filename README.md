@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pluto is a company surfaced as a portfolio company of sierra-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Pluto (Pluto Health, trypluto.com now pluto.health) is an AI-powered clinical intelligence and care-delivery platform that unifies fragmented health data from roughly 90% of US health systems. It aggregates medical records, insurance data, and social determinants of health, then applies AI-driven clinical intelligence to surface care gaps, coordinate preventive care, screenings, vaccines and at-home lab testing, and match patients to clinical trials. Pluto offers turnkey, white-label, or API-based deployment of its clinical operations. It is backed by Sierra Ventures. As of this enrichment pass the company publishes no public developer portal, API reference, SDKs, or documentation.
 
-Backed by: sierra-ventures — https://trypluto.com/
+**Areas:** Company · Artificial Intelligence · Healthcare · Clinical Intelligence · Health Data · Care Coordination · Digital Health · Interoperability
+
+## Pluto on APIs.io
+
+Everything profiled for Pluto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pluto/](https://apis.io/providers/pluto/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pluto Domain Security](https://apis.io/security/pluto/pluto-domain-security/)
+- [Pluto Trust Center](https://apis.io/security/pluto/pluto-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pluto.health/)
+- [Blog](https://pluto.health/news)
+- [Compliance](https://trust.pluto.health/)
+- [Terms of service](https://pluto.health/terms-of-use)
+- [Privacy policy](https://pluto.health/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.0** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pluto/](https://apis.io/providers/pluto/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pluto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pluto/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
